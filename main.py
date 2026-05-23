@@ -1,14 +1,20 @@
 
+from app.api.routes import health, orders, payments, webhooks
 from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import Optional
 import uvicorn
 
 app = FastAPI(
-    title='My FastAPI API',
-    description='A sample FastAPI application',
+    title='M-Pesa Reconciliation API',
+    description='FastAPI service for M-Pesa payment intake and order reconciliation',
     version='0.1.0'
 )
+
+app.include_router(health.router)
+app.include_router(orders.router)
+app.include_router(payments.router)
+app.include_router(webhooks.router)
 
 class Item(BaseModel):
     name: str

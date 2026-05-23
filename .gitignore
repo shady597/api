@@ -8,6 +8,7 @@ AGENTS.md
 .aider*
 .gemini/
 .mcp/
+PROJECT_CONTEXT.md
 
 # Python local environment and cache
 .venv/
