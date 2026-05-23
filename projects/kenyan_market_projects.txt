@@ -1,0 +1,16 @@
+Kenyan Market API Project Ideas
+
+1. M-Pesa Integration & Reconciliation Engine (Fintech)
+   - Focus: API Integration Patterns, Webhooks, Error Handling/Retries.
+
+2. AgriTech Supply Chain API (Logistics/Agriculture)
+   - Focus: Sync vs. Async APIs, Batch Processing, Mobile-optimized Data Transfer.
+
+3. SME Inventory & "E-Duka" Backend (Retail/E-commerce)
+   - Focus: Content Negotiation, Caching Strategies, Auth.
+
+4. Last-Mile Logistics Tracker (Logistics)
+   - Focus: Real-time APIs (WebSockets), Geo-spatial data handling, Rate Limiting.
+
+5. Unified Savings & SACCO API (Community Finance)
+   - Focus: API Security (OAuth 2.1, PII handling), OAuth 2.0, Data Aggregation.
