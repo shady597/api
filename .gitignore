@@ -1,0 +1,11 @@
+# AI / agent tooling and generated artifacts
+AGENTS.md
+.playwright-mcp/
+.codex/
+.claude/
+.cursor/
+.windsurf/
+.aider*
+.gemini/
+.mcp/
+
