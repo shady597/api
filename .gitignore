@@ -9,3 +9,7 @@ AGENTS.md
 .gemini/
 .mcp/
 
+# Python local environment and cache
+.venv/
+__pycache__/
+*.py[cod]
